@@ -13,7 +13,9 @@ and now you know about slicing from the end as well :)
 keep enjoying our bites!
 """
 
+
 def slice_and_dice(text: str = text) -> list:
-    return [line.split()[len(line.split())-1].rstrip('.!') for line in text.strip().split('\n') if line.lstrip()[0].islower()]
+    return [line.split()[len(line.split()) - 1].rstrip('.!') for line in text.strip().split('\n') if line.lstrip()[0].islower()]
+
 
 print(slice_and_dice())

@@ -10,4 +10,4 @@ def allowed_driving(name, age):
         print(f'{name} is not allowed to drive')
 
 
-allowed_driving('Surya',2)
+allowed_driving('Surya', 2)

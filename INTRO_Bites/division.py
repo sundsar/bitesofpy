@@ -6,6 +6,6 @@ def divide_numbers(numerator, denominator):
         raise ValueError
 
     try:
-        return n/d
+        return n / d
     except ZeroDivisionError:
         return 0

@@ -25,9 +25,11 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 """
 
+
 def strip_vowels(text: str) -> Tuple[str, int]:
     tpl = re.subn('[aeiouAEIOU]', '*', text)
     return tpl
+
 
 newblk, count = strip_vowels(text)
 print(newblk)
