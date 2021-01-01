@@ -1,4 +1,3 @@
-# bitesofpy
-Bites of Py Exercises
+Pybites
 
 https://codechalleng.es/profiles/sundsar
