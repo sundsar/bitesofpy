@@ -1,5 +1,6 @@
 from collections import namedtuple
 
+
 BeltStats = namedtuple('BeltStats', 'score ninjas')
 
 ninja_belts = {'yellow': BeltStats(50, 11),
